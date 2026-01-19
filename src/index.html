@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <script defer src="app.js"></script>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1/lite-youtube.min.js"
+    ></script>
+    <title>Neumólogo - Luis Santiago Martínez</title>
+  </head>
+
+  <body class="bg-neutral-950 text-white min-h-screen">
+    <div id="page-loader" class="fixed inset-0 z-50 flex items-center justify-center bg-neutral-950">
+      <div class="spinner"></div>
+    </div>
+
+    <header class="p-6 text-center">
+      <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight">
+        Cuidar para respirar mejor
+      </h1>
+      <p
+        class="text-sm sm:text-base lg:text-lg text-neutral-400 mt-3 leading-relaxed"
+      >
+        Herramientas para el Bienestar de Pacientes y Cuidadores en Enfermedades Respiratorias Crónicas
+      </p>
+    </header>
+
+    <main
+      id="videoList"
+      class="p-4 grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
+    ></main>
+  </body>
+</html>
