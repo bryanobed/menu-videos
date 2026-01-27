@@ -2,47 +2,47 @@ const videos = [
   {
     title: "Video 1",
     description: "Estrategias para potenciar la salud",
-    youtubeId: "sBkGpwGkw6c",
+    youtubeId: "LFC1p5_eRcQ",
   },
   {
     title: "Video 2",
     description: "Cuidador primario",
-    youtubeId: "AqE7h-9Vomk",
+    youtubeId: "0899UR-WVu0",
   },
   {
     title: "Video 3",
     description: "Cuidados para respirar mejor",
-    youtubeId: "rMUk4Yg0kjw",
+    youtubeId: "e9CHduXLv_M",
   },
   {
     title: "Video 4",
     description: "Preguntas y respuestas",
-    youtubeId: "SWRAeStC2Sc",
+    youtubeId: "zA7mW2bPu4o",
   },
   {
     title: "Video 5",
     description: "El diario de un cuidador",
-    youtubeId: "Maiuh3dbTOo",
+    youtubeId: "1xagHxUk_7A",
   },
   {
     title: "Video 6",
     description: "Tipos de tos",
-    youtubeId: "fIlL2GLeSYo",
+    youtubeId: "0-OLQiwjV8s",
   },
   {
     title: "Video 7",
     description: "Cómo consumir más alimentos",
-    youtubeId: "_HZLSCq2A_g",
+    youtubeId: "63taCXz-erg",
   },
   {
     title: "Video 8",
     description: "Regulación emocional",
-    youtubeId: "nGP6C-ENrjY",
+    youtubeId: "U1k8Etijtfw",
   },
   {
     title: "Video 9",
     description: "Cuidados paliativos",
-    youtubeId: "6QSHTwBkx6g",
+    youtubeId: "QAXwFAl9V7k",
   },
 ];
 
