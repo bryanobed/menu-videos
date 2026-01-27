@@ -48,7 +48,7 @@ const videos = [
 
 const container = document.getElementById("videoList");
 
-videos.forEach(video => {
+videos.forEach((video) => {
   const card = document.createElement("article");
 
   // card.className ="bg-neutral-900/80 backdrop-blur rounded-2xl p-4 shadow-lg hover:scale-[1.02] transition";
@@ -66,24 +66,23 @@ videos.forEach(video => {
   duration-300
   `;
 
-
   card.innerHTML = `
     <div class="absolute inset-0 rounded-3xl bg-linear-to-br from-white/4 to-transparent opacity-0 hover:opacity-100 transition">
     </div>
 
     <lite-youtube
       videoid="${video.youtubeId}"
-      poster="https://i.imgur.com/9hWmlVm.jpeg"
       class="w-full aspect-video rounded-2xl overflow-hidden mb-4 ring-1 ring-white/10">
     </lite-youtube>
 
-    <h2 class="text-lg font-semibold">
-      ${video.title}
-    </h2>
 
-    <p class="text-sm text-neutral-400 mt-1">
-      ${video.description}
-    </p>
+      <h2 class="text-lg font-semibold">
+        ${video.title}
+      </h2>
+
+      <p class="text-sm text-neutral-400 mt-1">
+        ${video.description}
+      </p>
   `;
 
   container.appendChild(card);
@@ -94,5 +93,5 @@ window.addEventListener("load", () => {
 
   setTimeout(() => {
     if (loader) loader.remove();
-  }, 150); // 
+  }, 150); //
 });
